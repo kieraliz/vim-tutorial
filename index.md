@@ -1,4 +1,4 @@
-# How to use VIM: A Tutorial and Cheat Sheet
+# Editing in VIM: Tutorial and Cheat Sheet
 
 VIM is a powerful tool that allows us to work on machines that do not have a graphical user interface, such as accessing remote servers or editing on the cloud. For these situations, we do not have the option of using VSCode or other editors. Instead, we can use a terminal-based text editor to make changes to our code. 
 
