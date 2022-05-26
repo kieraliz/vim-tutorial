@@ -81,20 +81,29 @@ Use the escape key `esc` to switch from Insert Mode &rarr; Command Mode <br>
 `diw`: delete/cut the word under the cursor <br>
 `d$`: delete/cut to the end of the line <br>
 `x`: delete/cut char <br>
-
-## File Interactive Commands
-`vim <file-name>`: edits an existing file, or creates a new one if the file name does not exist <br>
-`Ctlr` + `G`: shows your location in the file
-`:set nu`: enables line numbers on the editor <br>
-`:w`: save the file (no exit) <br>
-`:wq`: save the file and quit <br>
-`:q`: quit, exists without changes assuming no changes have been made <br>
-`:q!`: quit forcefully and throw away all unsaved changes <br>
-`:!`: run the command line without completly exiting the current editor <br>
+`r`: splits a line between words <br>
+`J`: combines two lines together <br>
 
 ## Searching
 `/<search-phrase>`: searches for the given search phrase <br>
 `?`: search backwards for the given search phrase <br>
 `n`: repeat search in same direction <br>
 `N`: repeat search in opposite direction  <br>
-`:set hlsearch`: enables highlighted search
+`:set hlsearch`: enables highlighted search <br>
+
+## File Interactive Commands
+`vim <file-name>`: edits an existing file, or creates a new one if the file name does not exist <br>
+`Ctlr` + `G`: shows your location in the file <br>
+`:set nu`: enables line numbers on the editor <br>
+`:w`: save the file (no exit) <br>
+`:wq`: save the file and quit <br>
+`:q`: quit, exists without changes assuming no changes have been made <br>
+`:q!`: quit forcefully and throw away all unsaved changes <br>
+`:!`: execute a single unix command from without completly exiting the current editor <br>
+`:sh`: temporarily return to the shell use <br>
+`:f`: display the name of the current file in use <br>
+
+## References + More Articles:
+* [Mastering Vim Grammar](https://irian.to/blogs/mastering-vim-grammar/)
+* [Learn to speak vim - verbs, nouns, and modifiers!](https://yanpritzker.com/learn-to-speak-vim-verbs-nouns-and-modifiers-d7bfed1f6b2d)
+* [Vim Cheat Sheet](https://vim.rtorr.com/)
